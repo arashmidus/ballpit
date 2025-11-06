@@ -7,13 +7,11 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import Ballpit from "@/components/Ballpit";
 import ScrollVelocity from "@/components/ScrollVelocity";
 import Beams from "@/components/Beams";
-import CircularText from "@/components/CircularText";
 import MetaBalls from "@/components/MetaBalls";
 import MagnetLines from "@/components/MagnetLines";
 import Dither from "@/components/Dither";
 import Silk from "@/components/Silk";
 import Noise from "@/components/Noise";
-import Threads from "@/components/Threads";
 import DecryptedText from "@/components/DecryptedText";
 import TextPressure from "@/components/TextPressure";
 import Snake from "@/components/Snake";
