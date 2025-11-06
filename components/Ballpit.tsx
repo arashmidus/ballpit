@@ -10,6 +10,7 @@ import {
   Vector2,
   Vector3,
   MeshPhysicalMaterial,
+  MeshPhysicalMaterialParameters,
   ShaderChunk,
   Color,
   Object3D,
@@ -429,8 +430,9 @@ class Y extends MeshPhysicalMaterial {
     thicknessPower: { value: 2 },
     thicknessScale: { value: 10 }
   };
+  defines!: { [key: string]: any };
 
-  constructor(params: any) {
+  constructor(params?: MeshPhysicalMaterialParameters) {
     super(params);
     this.defines = { USE_UV: '' };
     this.onBeforeCompile = shader => {
