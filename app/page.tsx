@@ -17,7 +17,6 @@ import Threads from "@/components/Threads";
 import DecryptedText from "@/components/DecryptedText";
 import TextPressure from "@/components/TextPressure";
 import Snake from "@/components/Snake";
-import Globe from "@/components/Globe";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
